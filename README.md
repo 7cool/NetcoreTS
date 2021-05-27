@@ -1,0 +1,2 @@
+# NetcoreTS
+Type script base.
