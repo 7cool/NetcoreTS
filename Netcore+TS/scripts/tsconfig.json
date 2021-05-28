@@ -1,0 +1,27 @@
+/*{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+noEmitOnError : Não emita saídas se algum erro for relatado.
+noImplicitAny: Gera erros em expressões e declarações com um anytipo implícito .
+sourceMap: Gera o .maparquivo correspondente .
+target : Especifique a versão de destino ECMAScript.
+}*/
+{
+  "compilerOptions": {
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "target": "es6"
+  },
+  "files": [ "./app.ts" ],
+  "compileOnSave": true
+}

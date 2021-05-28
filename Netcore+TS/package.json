@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "del": "5.1.0"
+  },
+  "name": "asp.net",
+  "private": true,
+  "version": "1.0.0"
+}
